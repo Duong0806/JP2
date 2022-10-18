@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Books.BooksController">
+   <children>
+      <TableView layoutX="19.0" layoutY="100.0" prefHeight="200.0" prefWidth="537.0">
+        <columns>
+          <TableColumn prefWidth="48.0" text="ID" />
+          <TableColumn prefWidth="212.0" text="NAME" />
+            <TableColumn prefWidth="217.0" text="AUTHOR" />
+            <TableColumn prefWidth="53.0" text="QTY" />
+        </columns>
+      </TableView>
+      <Button layoutX="19.0" layoutY="30.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="97.0" text="&lt;&lt; BACK" />
+      <Button layoutX="459.0" layoutY="30.0" mnemonicParsing="false" text="NEW BOOK" />
+   </children>
+</AnchorPane>
