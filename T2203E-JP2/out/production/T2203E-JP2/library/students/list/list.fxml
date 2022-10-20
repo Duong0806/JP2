@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="821.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.students.list.StudentsListController">
+   <children>
+      <TableView fx:id="tbStudents" layoutX="27.0" layoutY="100.0" prefHeight="200.0" prefWidth="750.0">
+        <columns>
+          <TableColumn fx:id="tdId" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="tdName" prefWidth="252.0" text="name" />
+            <TableColumn fx:id="tbEmail" prefWidth="280.0" text="email" />
+            <TableColumn fx:id="tbTel" prefWidth="138.0" text="tel" />
+        </columns>
+      </TableView>
+      <Button onAction="#backToHome" layoutX="27.0" layoutY="28.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="117.0" text="&lt;&lt;Back" />
+      <Button onAction="#createNewStudents" layoutX="660.0" layoutY="28.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="117.0" text="New Student" />
+   </children>
+</AnchorPane>
